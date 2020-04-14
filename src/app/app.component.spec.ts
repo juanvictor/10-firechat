@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'firechat'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('firechat');
+    expect(app.chats).toEqual('firechat');
   });
 
   it('should render title', () => {
